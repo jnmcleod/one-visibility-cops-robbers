@@ -71,12 +71,13 @@ void sortTreeByRoot(int, int);
 int main(int argc, const char * argv[])
 {
 //1.
-    //int vertices = getInput();
+    
+    int vertices = getInput();
     
     //we create 10 distinct trees
     for (int tree = 1; tree < 11; tree++)
     {
-        int vertices = 30 * tree;
+        //int vertices = 30 * tree;
         createTree(vertices);
         std::cout << "***********************************\nTREE NUMBER " << tree;
         std::cout << "\nOriginal tree:\n";
